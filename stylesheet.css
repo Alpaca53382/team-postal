@@ -38,12 +38,12 @@ div {
 	background-color: #F1c85f;
 	min-height: 100vh;
 	white-space: pre-line;
-	border: 50px solid;
+	border: 5vw solid;
     padding: 0px;
-    border-image-source: url(border.png);
+    border-image-source: url(Scrollborder.png);
     border-image-repeat: repeat;
-    border-image-slice: 100;
-    border-image-outset: 20px;
+    border-image-slice: 160;
+    border-image-outset: 65px;
 }
 #scrollbottom{
 	position: sticky; 
