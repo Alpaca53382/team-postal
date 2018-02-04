@@ -1,10 +1,16 @@
+@font-face {
+    font-family: wondermail;
+    src: url(wondermail.woff);
+}
 
 body {
 	margin: 0px;
 }
 div {
 	box-sizing: border-box;
+	font-family: wondermail;
 }
+
 #header {
 	height: 200px;
 	background-color: #7683bc;
@@ -14,17 +20,39 @@ div {
 #main {
 	display: flex;
 	flex-direction: right;
-	background: #593e27;
+	background-image: url(Postal_Backdrop.png)
+
+
+}
+#scrolltop{
+	position: sticky; 
+	top: 0;
+	width: 0vw;
+	height: 0vw;
+	margin: 0px 0vw 0px 11vw;
 }
 #content {
+	font-family: wondermail;
 	width: 45vw;
 	margin: 80px 5vw 80px 22vw;
-	background-color: #edbc74;
+	background-color: #F1c85f;
 	min-height: 100vh;
-	padding: 50px;
-	border-radius: 50px;
 	white-space: pre-line;
+	border: 50px solid;
+    padding: 0px;
+    border-image-source: url(border.png);
+    border-image-repeat: repeat;
+    border-image-slice: 100;
+    border-image-outset: 20px;
 }
+#scrollbottom{
+	position: sticky; 
+	bottom: 0;
+	width: 0vw;
+	height: 0vw;
+	margin: 0px 0vw 0px 11vw;
+}
+
 #sidebar {
 	width: 14vw;
 	margin: 80px 0;
