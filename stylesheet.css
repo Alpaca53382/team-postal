@@ -43,7 +43,7 @@ div {
     border-image-source: url(Scrollborder.png);
     border-image-repeat: repeat;
     border-image-slice: 160;
-    border-image-outset: 65px;
+    border-image-outset: 4vw;
 }
 #scrollbottom{
 	position: sticky; 
